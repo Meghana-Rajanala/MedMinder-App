@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">MedMinder</string>
+    <string name="username">Username</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="team_members"><u>Team members</u></string>
+    <string name="guidence"><u>Under the guidence of</u></string>
+    <string name="gps_network_not_enabled">GPS or network services are disabled. Do you wish to enable them? </string>
+    <string name="open_location_settings">Enable GPS</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_title">Search for Hospitals</string>
+    <string name="search_hint">Search for nearby hopsital</string>
+    <string name="message_no_result">Sorry, we could not find any results matching your query. \nPlease try another query.</string>
+    String appLabel = getString(R.string.app_name);
+
+    <string-array name="array_option_type">
+        <item>Hospital</item>
+        <item>Doctor/Clinic</item>
+        <item>Dentist</item>
+    </string-array>
+    <string-array name="relationship">
+        <item>father</item>
+        <item>mother</item>
+        <item>guardian</item>
+        <item>SO</item>
+        <item>husband</item>
+        <item>wife</item>
+        <item>sister</item>
+        <item>brother</item>
+        <item>friend</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="array_option_rank">
+        <item>Prominence</item>
+        <item>Distance</item>
+    </string-array>
+
+
+    <style name="Button.White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <string name="schedule"><u>Schedule</u></string>
+    <string name="days"><u>Days</u></string>
+    <string-array name="select_months">
+        <item>Month</item>
+        <item>01. January</item>
+        <item>02. February</item>
+        <item>03. March</item>
+        <item>04. April</item>
+        <item>05. May</item>
+        <item>06. June</item>
+        <item>07. July</item>
+        <item>08. August</item>
+        <item>09. September</item>
+        <item>10. October</item>
+        <item>11. November</item>
+        <item>12. December</item>
+
+    </string-array>
+
+
+    <string-array name="select_dates">
+        <item>Day</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+    </string-array>
+
+
+    <string-array name="select_year">
+        <item>Year</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResultActivity">
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints,UselessParent">
+
+    <TextView
+        android:id="@+id/edittext1"
+        android:gravity="start"
+        android:hint="Medicine Details"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/set_alarm_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edittext1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="634dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="10dp"
+        android:text="set alarm"
+        app:cornerRadius="20dp"
+        tools:ignore="HardcodedText,InvalidId,NotSibling,UnknownId" />
+</RelativeLayout>
