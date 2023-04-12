@@ -18,7 +18,7 @@ Sqlite database for medicine details
 
 # Publications :
 IJIEMR Transactions, online available on 21st Feb 2023. 
-Link :http://www.ijiemr.org/downloads.php?vol=Volume-12&issue=Issue 03 
+Link :[http://www.ijiemr.org/downloads.php?vol=Volume-12&issue=Issue 03 ](https://ijiemr.org/downloads/Volume-12)
 Title ALERT MESSAGE USING DOCTOR’S PRESCRIPTION 
 Volume 12, ISSUE 03, Pages: 184-188 
 Paper Authors 
